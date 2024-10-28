@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+.video-container {
+  max-width: 1280px;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.title {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.caption {
+  padding-left: 10px;
+}
+
+.btn_subscribe {
+  background-color: #000; 
+  color: #fff; 
+  border: none;
+  border-radius: 20px; 
+  padding: 10px 20px;
+  margin-left: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s ease;
+}
+
+.imgvideo {
+
+  height: 200px;
+}
